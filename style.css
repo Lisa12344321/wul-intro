@@ -5,15 +5,26 @@ body {
 
 
 main {
-    max-width: 56rem;
+
+    max-width: 65ch;
     margin-inline: auto;
 }
 
 nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
 
     font-size:1.4rem;
     text-transform: uppercase;
     border-bottom: 1px solid black;
+
+    img {
+        width: 30px;
+
+    }
+
     ul {
         margin:0;
         padding:.6rem;
@@ -21,7 +32,7 @@ nav {
         display: flex;
         text-align: center;
         gap: 1rem;
-        font-size: 2rem;
+        font-size: 1rem;
 
         li > a {
             text-decoration: none;
@@ -38,10 +49,3 @@ nav {
     
         }
     }
-
-
-
-
-
-
-}
